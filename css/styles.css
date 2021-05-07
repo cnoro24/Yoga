@@ -1,0 +1,332 @@
+body{
+  font-family: 'Raleway', sans-serif;
+    background-color: #FFF;
+}
+
+h3{
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+
+h4{
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 2;
+  color: #126e82;
+  text-align: center;
+}
+
+/* Navigation Top Bar */
+
+.container-fluid{
+  padding : 0px;
+}
+
+.navbar{
+   padding: 0% 1rem;
+}
+
+.navbar-brand{
+   font-family: 'Great Vibes', cursive;
+   font-size: 2.5rem;
+
+}
+
+.nav-item{
+  padding: 0px 20px;
+}
+
+/* Title */
+
+#home{
+  background-image: url("../images/Yoga_Main.jpg");
+  background-size: cover;
+  background-position: 10% 85%;
+}
+
+.yoga-title-img{
+  width: 100%;
+  position: absolute;
+  left: 0px;
+  top: -50px;
+  z-index: -1;
+}
+
+.title{
+  padding: 4% 10%;
+}
+
+.title-heading{
+ color: #eeeeee;
+ font-family: 'Playfair Display', serif;
+ font-size : 4rem;
+}
+
+.title-section{
+  padding: 5% 13% 10% 48%;
+  color: #eeeeee;
+}
+
+.title-subsection{
+  padding: 0% 0% 6% 0%;
+    line-height : 1.5;
+}
+
+.submit-btn{
+  width: 20%;
+}
+
+/* Hidden section */
+#hidden-section{
+  display:none;
+}
+
+/* About Section */
+
+#about{
+  padding: 5% 10%;
+}
+
+.row-container{
+  background-color: #eeeeee;
+    padding: 5% 10%;
+}
+
+.display-pic{
+  width: 100%;
+  transform: rotate(-5deg);
+}
+
+.about-title h2{
+    color: #126e82;
+    font-family: 'Playfair Display', serif;
+    font-size : 3rem;
+
+}
+
+.about-subsection{
+      line-height : 1.5;
+      padding: 0% 7%;
+}
+
+/* Events Section */
+#events{
+  background-color: #2B6D93;
+  padding: 5% 10%;
+}
+
+.event-title{
+  font-weight: 600;
+  color: #126e82;
+}
+.event-img{
+   border-radius: 50%;
+   width: 60%;
+}
+
+.event-card{
+  padding: 8% 0% 10%;
+}
+
+/* Testimonials */
+
+#testimonials{
+  padding: 5% 10%;
+}
+
+#carouselTestimonial{
+
+}
+
+.outer-carousel{
+padding: 3% 0% 6%;
+  background-color: #eeeeee;
+}
+
+.carousal-inner{
+    padding: 0% 6% 0%;
+}
+
+.testimonial-img{
+    padding: 0% 14% 0%;
+}
+
+/* Quote */
+
+#quote{
+    background-color: #2B6D93;
+  padding: 5% 20%;
+  text-align: center;
+}
+
+.quote-header{
+  color: #eeeeee;
+  font-family: 'Playfair Display', serif;
+  font-size : 2.5rem;
+  line-height: 1.5;
+}
+
+
+.quote-detail{
+  padding-top: 2%;
+  color: #eeeeee;
+  font-family: 'Ruthie', cursive;
+  font-size : 2.5rem;
+}
+
+/* Contact */
+
+#contact{
+  padding: 5% 20%;
+}
+
+#contact h4{
+    text-align: center;
+}
+
+.contact-form-row{
+  padding-bottom: 3%;
+}
+
+/* Footer */
+
+#footer{
+    background-color: #2B6D93;
+  padding: 3% 20% 5%;
+  text-align: center;
+}
+
+
+.footer-icon{
+      color: #eeeeee;
+    padding: 2% 2%;
+}
+
+
+.feat-desc{
+    color: #eeeeee;
+  font-size: 1rem;
+  padding: 2% 15%;
+}
+
+/* Media query for Mobile Phones and Tablets*/
+
+
+@media only screen and (max-width: 480px){
+  .navbar-brand{
+     font-family: 'Great Vibes', cursive;
+     font-size: 2rem;
+
+  }
+  /* Hidden section */
+  .title-section{
+    visibility: hidden;
+  }
+
+    .title{
+      padding: 2% 2%;
+    }
+
+    #hidden-section{
+      display: unset;
+    }
+
+    .title-heading{
+     color: #eeeeee;
+     font-family: 'Playfair Display', serif;
+     font-size : 2.1rem;
+    }
+
+   .hidden-title-section{
+      padding: 3% 8% 3% 8%;
+      text-align: center;
+      background-color: #eeeeee;
+      margin: 1% 0% 1%;
+    }
+
+    h3{
+      font-size: 1.2rem;
+      font-weight: 6x00;
+      color: #2B6D93;
+
+    }
+
+
+
+    p{
+      font-size: 0.8rem;
+    }
+
+
+      .title-subsection{
+      padding: 0% 0% 6% 0%;
+        line-height : 1.5;
+        margin-bottom: 2%;
+    }
+
+    .submit-btn{
+      width: 30%;
+      color: #2B6D93;
+      border-color: #2B6D93;
+    }
+    .hidden-title-subsection{
+      padding-bottom: 3%;
+    }
+
+
+    .display-pic{
+      width: 60%;
+      transform: rotate(-5deg);
+    margin: 0px 0px 4px 45px;
+
+    }
+
+    .event-card{
+      margin-bottom:3%;
+    }
+
+    h4{
+      font-size: 1.5rem;
+    }
+
+    .quote-header{
+    font-size : 2rem;
+    }
+
+
+    .quote-detail{
+    font-size : 2rem;
+    }
+
+
+    #about{
+      padding: 5% 10%;
+    }
+
+    #quote{
+        padding: 5% 5%;
+    }
+
+    #contact{
+        padding: 5% 5%;
+    }
+.form-control{
+  font-size: 0.8rem;
+}
+
+label{
+  font-size: 0.8rem;
+}
+.btn{
+  font-size: 0.8rem;
+  margin-top: 2%;
+}
+#footer{
+    padding: 5% 5%;
+}
+.feat-desc{
+  font-size:0.7rem;
+  padding-right:0%;
+  padding-left: 0%;
+}
+}
